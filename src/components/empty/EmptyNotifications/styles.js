@@ -1,0 +1,70 @@
+import {StyleSheet} from 'react-native';
+
+export default styles = StyleSheet.create({
+  container: {
+    width: 315,
+    height: 375,
+    position: 'relative',
+    marginRight: 20,
+    borderRadius: 25,
+  },
+  image: {
+    width: '100%',
+    height: 375,
+    marginRight: 10,
+    borderRadius: 25,
+  },
+  overlay: {
+    backgroundColor: 'rgba(0, 0, 0, 0.4)',
+    width: '100%',
+    height: '100%',
+    flexDirection: 'column',
+    position: 'absolute',
+    top: 0,
+    borderRadius: 25,
+  },
+  tag: {
+    width: '40%',
+    height: 40,
+    backgroundColor: '#3ABF37',
+    flexDirection: 'column',
+    justifyContent: 'center',
+    paddingRight: 10,
+    position: 'absolute',
+    top: '10%',
+    right: 0,
+  },
+  tagText: {
+    color: '#fff',
+    fontSize: 13,
+    fontWeight: '700',
+    letterSpacing: 0.5,
+    alignSelf: 'flex-end',
+  },
+  restaurantContainer: {
+    flexDirection: 'row',
+    position: 'absolute',
+    bottom: 12,
+    left: 10,
+  },
+  restaurantImage: {
+    width: 45,
+    height: 45,
+    marginRight: 10,
+    borderRadius: 100,
+  },
+  restaurantFlex: {},
+  restaurantName: {
+    fontStyle: 'normal',
+    fontWeight: '600',
+    fontSize: 14,
+    color: '#fff',
+  },
+  restaurantLocation: {
+    fontStyle: 'normal',
+    fontWeight: '400',
+    fontSize: 14,
+    color: '#f3f3f3',
+    paddingTop: 5,
+  },
+});

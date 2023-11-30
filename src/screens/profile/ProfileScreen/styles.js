@@ -1,0 +1,132 @@
+import {StyleSheet} from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    width: '100%',
+    height: '100%',
+  },
+  header: {
+    backgroundColor: 'white',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 15,
+    paddingVertical: 15,
+    paddingBottom: 25,
+  },
+  headerFlex: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  headerText: {
+    fontSize: 16,
+    fontWeight: '500',
+    color: 'black',
+    marginLeft: 20,
+  },
+  headerButton: {
+    fontSize: 14,
+    fontWeight: '400',
+    color: '#a1705a',
+  },
+  body: {
+    flexDirection: "column",
+  },
+  firstSection: {
+    backgroundColor: 'white',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  name: {
+    color: '#000',
+    fontSize: 17,
+    fontWeight: '500',
+    textAlign: 'center',
+    marginBottom: 5,
+  },
+  number: {
+    color: '#a00',
+    fontSize: 14,
+    fontWeight: '400',
+    textAlign: 'center',
+    marginBottom: 5,
+  },
+  profile__image: {
+    width: 50,
+    height: 50,
+    borderRadius: 100,
+    marginRight: 10,
+    marginBottom: 10,
+  },
+  ratingContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  rating: {
+    color: '#000',
+    fontSize: 13,
+    fontWeight: '500',
+    marginLeft: 5,
+  },
+  ratingText: {
+    color: '#666',
+    fontSize: 13,
+    fontWeight: '400',
+    marginLeft: 5,
+  },
+  emailContainer: {
+    width: '100%',
+    paddingVertical: 30,
+    paddingBottom: 25,
+    paddingHorizontal: 15,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
+  email: {
+    color: '#000',
+    fontSize: 14,
+    fontWeight: '400',
+    textAlign: 'center',
+    marginLeft: 10,
+  },
+  verifyButton: {
+    width: 65,
+    backgroundColor: '#a1705a',
+    borderRadius: 15,
+    paddingVertical: 3,
+    paddingHorizontal: 2,
+  },
+  verifyText: {
+    color: '#fff',
+    fontSize: 12,
+    fontWeight: '500',
+    textAlign: 'center',
+  },
+  savedLocations: {
+    backgroundColor: 'white',
+    paddingHorizontal: 15,
+    paddingVertical: 20,
+    marginTop: 8,
+  },
+  savedLocationsHeading: {
+    color: '#000',
+    fontSize: 17,
+    fontWeight: '500',
+    marginBottom: 5,
+  },
+  savedLocation: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: 15,
+    borderBottomColor: '#ccc',
+    borderBottomWidth: 0.4,
+  },
+  savedLocation2: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: 15,
+    paddingBottom: 5,
+  },
+});

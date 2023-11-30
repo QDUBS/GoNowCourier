@@ -1,0 +1,34 @@
+export const LOGIN = "Login";
+export const REGISTER = "Register";
+export const HOME = "Home";
+export const NOTIFICATIONS = "Notifications";
+export const STARTRIDE = "StartRide";
+export const UPDATERIDE = "UpdateRide";
+export const FINISHRIDE = "FinishRide";
+export const STARTDELIVERY = "StartDelivery";
+export const UPDATEDELIVERY = "UpdateDelivery";
+export const FINISHDELIVERY = "FinishDelivery";
+export const ORDERDETAILS = "OrderDetails";
+export const ONGOINGDELIVERY = "OngoingDelivery";
+export const PROFILE = "Profile";
+export const TRACK = "Track";
+export const WALLET = "Wallet";
+export const SETTINGS = "Settings";
+export const PASSWORDRESET = "PasswordReset";
+export const ABOUT = "About";
+export const FAQ = "FAQ";
+export const SUPPORT = "Support";
+export const TERMSCONDITIONS = "TermsConditions";
+export const DATAPROTECTIONPOLICY = "DataProtectionPolicy";
+export const CHECKUPDATES = "CheckUpdates";
+export const SUCCESS = "Success";
+export const REVIEW = "Review";
+export const SPLASHSCREEN = "SplashScreen";
+
+// Navigators
+export const HOME_DRAWER = "HomeDrawer";
+export const HOME_NAVIGATOR = "HomeNavigator";
+export const TRACK_NAVIGATOR = "TrackNavigator";
+export const NOTIFICATION_NAVIGATOR = "NotificationNavigator";
+export const WALLET_NAVIGATOR = "WalletNavigator";
+export const SETTINGS_NAVIGATOR = "SettingsNavigator";
